@@ -78,6 +78,9 @@ There's also [links](https://www.freecodecamp.org), and
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{text}</ReactMarkdown>
         </div>
       </div>
+      <div className="scroll-box">
+        <span className="name">Jasper Duke</span>
+      </div>
     </div>
   );
 }

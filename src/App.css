@@ -46,3 +46,23 @@ body {
   border: 1px solid black;
   text-align: left;
 }
+
+.scroll-box {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 10px 0 0 0;
+  cursor: pointer;
+  z-index: 999;
+  background-image: linear-gradient(90deg, #586f6f, #669393, #c2eeee);
+  background-size: 200% auto;
+}
+
+.name {
+  color: white;
+  font-weight: 600;
+}
